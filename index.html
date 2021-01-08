@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="clac.css">
+    <script>src="clac.js"</script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4" id="stack" class="display">
+          t: 0<br/>
+          z: 0<br/>
+          y: 0<br/>
+          x: 0<br/>
+        </td>
+      </tr>
+      <tr>
+        <td id="entry" colspan="4" class="entry">
+        </td>
+      </tr>
+      <tr>
+       <td><button type="button" onclick="enter()">enter</button></td>
+       <td><button type="button" onclick="cle()">ce</button></td>
+       <td><button type="button" onclick="cls()">cs</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="concat('7')">7</button></td>
+        <td><button type="button" onclick="concat('8')">8</button></td>
+        <td><button type="button" onclick="concat('9')">9</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="concat('4')">4</button></td>
+        <td><button type="button" onclick="concat('5')">5</button></td>
+        <td><button type="button" onclick="concat('6')">6</button></td>
+        <td><button type="button" onclick="mulOp()">*</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="concat('1')">1</button></td>
+        <td><button type="button" onclick="concat('2')">2</button></td>
+        <td><button type="button" onclick="concat('3')">3</button></td>
+        <td><button type="button" onclick="subOp()">-</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="chs()">±</button></td>
+        <td><button type="button" onclick="concat('0')">0</button></td>
+        <td><button type="button" onclick="concat('.')">.</button></td>
+        <td><button type="button" onclick="addOp()">+</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
